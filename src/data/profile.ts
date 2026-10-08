@@ -1,3 +1,15 @@
+/**
+ * YOUR IDENTITY - start here.
+ *
+ * Everything that says who you are lives in this file: name, handle, photo,
+ * socials, email and the Home headline. Every value below is a PLACEHOLDER.
+ * Replace the text, or hand this file to your AI assistant and tell it what
+ * to put in each field.
+ *
+ * Page-specific copy (projects, services, testimonials, FAQs) lives in the
+ * other files in src/data/ and at the top of each view component.
+ */
+
 import { Briefcase, SealCheck, Clock, type Icon } from '@/components/slab'
 
 export type SocialLink = {
@@ -34,31 +46,31 @@ export type Profile = {
 }
 
 export const profile: Profile = {
-  name: 'Sunshine Villaflores',
-  firstName: 'Sunshine',
-  handle: '@sunshinenva',
-  role: 'Virtual Assistant & Content Creator',
+  name: 'Sunshine',
+  firstName: 'Your Name',
+  handle: '@yourhandle',
+  role: 'PLACEHOLDER - your title',
   avatarSrc: '/avatar.svg',
-  verifiedLabel: 'Computer Engineering Graduate',
-  email: 'sunshine.villaflores.va@gmail.com',
-  location: 'Tagum City, Philippines',
+  verifiedLabel: 'PLACEHOLDER - what the tick means (e.g. a certification)',
+  email: 'you@example.com',
+  location: 'PLACEHOLDER - your city or timezone',
   // Pick any icon from https://phosphoricons.com and import it above.
   stats: [
-    { value: '2+ yrs', label: 'Remote Experience', Icon: Briefcase },
-    { value: '50+', label: 'Students Managed', Icon: SealCheck },
-    { value: 'GMT+8', label: 'Timezone', Icon: Clock },
+    { value: '0 yrs', label: 'PLACEHOLDER', Icon: Briefcase },
+    { value: '#000', label: 'PLACEHOLDER', Icon: SealCheck },
+    { value: 'GMT+0', label: 'PLACEHOLDER', Icon: Clock },
   ],
   // The intro types this line, then flies it into the Home headline.
   // Keep it short: two halves, 5-8 words total.
-  displayName: { line1: 'Administrative Support.', line2: 'Digital Content Creator.' },
+  displayName: { line1: 'Your headline here.', line2: 'Keep it short.' },
   hero: {
-    body: 'Computer Engineering graduate specializing in administrative support, digital organization, and content creation.',
+    body: 'PLACEHOLDER - one line on what you do and who you do it for.',
     portraitSrc: '/avatar.svg',
-    portraitAlt: 'Sunshine Villaflores Portrait',
+    portraitAlt: 'Portrait placeholder',
   },
   socials: [
-    { label: 'LinkedIn profile', href: 'https://linkedin.com', iconPath: '/icons/linkedin.svg' },
-    { label: 'Facebook profile', href: 'https://facebook.com', iconPath: '/icons/facebook.svg' },
-    { label: 'Discord profile', href: 'https://discord.com', iconPath: '/icons/discord.svg' },
+    { label: 'Facebook profile', href: '#', iconPath: '/icons/facebook.svg' },
+    { label: 'LinkedIn profile', href: '#', iconPath: '/icons/linkedin.svg' },
+    { label: 'Discord profile', href: '#', iconPath: '/icons/discord.svg' },
   ],
 }
