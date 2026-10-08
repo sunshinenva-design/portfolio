@@ -22,7 +22,7 @@ export type SocialLink = {
 export type Stat = { value: string; label: string; Icon: Icon }
 
 export type Profile = {
-  name: Sunshine
+  name: string
   /** First name, used in "Hi, I'm ___." on About. */
   firstName: string
   handle: string
@@ -46,7 +46,7 @@ export type Profile = {
 }
 
 export const profile: Profile = {
-  name: 'Your Name',
+  name: 'Sunshine',
   firstName: 'Your Name',
   handle: '@yourhandle',
   role: 'PLACEHOLDER - your title',
